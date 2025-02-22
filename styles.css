@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    font-family: 'Brush Script MT', cursive;
+    background: linear-gradient(135deg, #f7c6c7, #f8d7d8); /* Soft green gradient */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Center the content */
+  section {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  section.active {
+    display: flex;
+  }
+  
+  /* Daisy Image */
+  .daisy {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    animation: growShrink 2s infinite;
+    cursor: pointer;
+  }
+  
+  /* Grow and Shrink Animation */
+  @keyframes growShrink {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+  }
+  
+  /* Final Message */
+  #finalMessage p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
