@@ -16,13 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Update greeting text
   document.getElementById("greetingText").innerHTML = `
-      <strong>Hi, ${userName}.</strong> Meeting you was so exciting for me, but I was also incredibly nervous. While waiting for you outside, all sorts of thoughts were racing through my head—I was even practicing how to greet you properly. I had absolutely no control over how I would react when I finally saw you.<br><br>
+      <strong>Hi, ${userName}.</strong> So you DO revisit!?😊 , Noice😁. <br></br>
+I want to visit soo many places with you. My Emerald greeeen!<br></br>
 
-      Then, I noticed some dogs nearby, and one of them looked familiar—I recognized it from your Snap. And suddenly, you descended from the heavens, looking absolutely stunning in that green outfit. I was mesmerized.<br><br>
-
-      And what did I end up saying? <em>"Wo pilla tumhare Snap me tha na?"</em> LOL. In my head, I was like, "<em>#@$ diya</em>"—and from there, everything went downhill. I couldn’t even give you the flower I had brought, and things got a little awkward.<br><br>
-
-      <strong>Anyway, touch the flower 🌼</strong>
+      <strong>I see Ruchi , My heart goes 💓💗 </strong>
   `;
 
   // Play/Pause toggle functionality
