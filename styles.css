@@ -28,7 +28,7 @@ body {
   
   /* Daisy Image */
   .daisy {
-    width: 40px; /* Adjust size as needed */
+    width: 60px; /* Adjust size as needed */
     height: auto;
     animation: growShrink 2s infinite;
     cursor: pointer;
