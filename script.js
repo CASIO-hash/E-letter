@@ -16,15 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Update greeting text
   document.getElementById("greetingText").innerHTML = `
-      <strong>Hi, ${userName}.</strong> So you DO revisit!?😊 , Noice😁. <br></br>
+      <strong>Hi, ${userName}.</strong> Sooo , you DO revisit!?😊 , Noice😁. <br></br>
 I want to visit soo many places with you. My Emerald greeeen!<br></br>
 
-      <strong>I see Ruchi , My heart goes 💓💗 </strong>
+      <strong>I see you and my heart skips a beat 💓💗 </strong>
   `;
 
   // Play/Pause toggle functionality
   const playButton = document.getElementById("playButton");
-  const audio = new Audio("your-song.mp3"); // Change to your actual song file
+  const audio = new Audio("Marc Wavy - Daydreaming.mp3"); // Change to your actual song file
 
   playButton.addEventListener("click", function () {
       if (audio.paused) {
