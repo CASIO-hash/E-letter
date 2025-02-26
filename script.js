@@ -61,6 +61,6 @@ playButton.addEventListener('click', () => {
 
 // Play song
 function playSong() {
-  const audio = new Audio('FAASLE(KoshalWorld.Com).mp3'); // Replace with your song file
+  const audio = new Audio('Marc Wavy - Daydreaming.mp3'); // Replace with your song file
   audio.play();
 }
