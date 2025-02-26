@@ -24,7 +24,7 @@ I want to visit soo many places with you. My Emerald greeeen!<br></br>
 
   // Play/Pause toggle functionality
   const playButton = document.getElementById("playButton");
-  const audio = new Audio("Marc Wavy - Daydreaming.mp3"); // Change to your actual song file
+  const audio = new Audio("Ittisihasi.mp3"); // Change to your actual song file
 
   playButton.addEventListener("click", function () {
       if (audio.paused) {
@@ -58,6 +58,6 @@ playButton.addEventListener('click', () => {
 
 // Play song
 function playSong() {
-  const audio = new Audio('Marc Wavy - Daydreaming.mp3'); // Replace with your song file
+  const audio = new Audio('Ittisihasi.mp3'); // Replace with your song file
   audio.play();
 }
