@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <strong>Hi, ${userName}.</strong> Sooo , you DO revisit!?😊 , Noice😁. <br></br>
 I want to visit soo many places with you. My Emerald greeeen!<br></br>
 
-      <strong>I see you and my heart skips a beat 💓💗 </br>
+      <strong>I see you and my heart skips a beat 💓💗 </br></br>
 Hmm... Last song was not in good quality, Here's one which i listen to when the heavens let water loose.😉 </strong>';
 
   // Play/Pause toggle functionality
