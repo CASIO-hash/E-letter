@@ -15,12 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const userName = urlParams.get('name') || 'Ruchi';
 
   // Update greeting text
-  document.getElementById("greetingText").innerHTML = `
-      <strong>Hi, ${userName}.</strong> Sooo , you DO revisit!?😊 , Noice😁. <br></br>
-I want to visit soo many places with you. My Emerald greeeen!<br></br>
+document.getElementById("greetingText").innerHTML = `
+    <strong>Hi, ${userName}.</strong> Sooo, you DO revisit!?😊 Noice😁. <br>
+    I want to visit so many places with you. My Emerald greeeen!<br>
 
-      <strong>I see you and my heart skips a beat 💓💗 </br></br>
-Hmm... Last song was not in good quality, Here's one which i listen to when the heavens let water loose.😉 </strong>';
+    <strong>I see you and my heart skips a beat 💓💗</strong><br>
+    Hmm... Last song was not in good quality, Here's one which I listen to when the heavens let water loose.😉
+`;
 
   // Play/Pause toggle functionality
   const playButton = document.getElementById("playButton");
