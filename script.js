@@ -20,7 +20,7 @@ document.getElementById("greetingText").innerHTML = `
     I want to visit so many places with you. My Emerald greeeen!<br>
 
     <strong>I see you and my heart skips a beat 💓💗</strong><br>
-    Hmm... Last song was not in good quality, Here's one which I listen to when the heavens let water loose.😉
+    Hmm... Last song was not in good quality, Here's one which I listen to when the heavens let water loose.😉<br>
 `;
 
   // Play/Pause toggle functionality
