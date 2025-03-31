@@ -19,8 +19,8 @@ document.getElementById("greetingText").innerHTML = `
     <strong>Hi, ${userName}.</strong> I totally get your anger <br>
    Promises are meant to be kept not forget.<br>
 
-    <strong>But communication is important yk.</strong><br>
-    If we don't communicate.. i don't wanna explore that possibility. I can be very clingy at times. In all honesty; i extremely fear losing you. Mat jao na aise bina kuch bole, yeh achhi aadat nahi hai. <br>
+    <strong>I rushed it ik.</strong><br>
+I could'nt adhere to my own words,i knew this would happed. I even addressed it in that last letter... I'm such a fool. <br>
 `;
 
   // Play/Pause toggle functionality
