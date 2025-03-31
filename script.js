@@ -54,7 +54,7 @@ daisy1.addEventListener('click', () => {
 
 // Play Button Click Event (Stage 2)
 playButton.addEventListener('click', () => {
-  playSong();
+  playSong('FindingYou.mp3');
 });
 
 // Play song
