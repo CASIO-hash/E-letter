@@ -25,7 +25,7 @@ document.getElementById("greetingText").innerHTML = `
 
   // Play/Pause toggle functionality
   const playButton = document.getElementById("playButton");
-  const audio = new Audio("FindingYou.mp3"); // Change to your actual song file
+  const audio = new Audio('FindingYou.mp3'); // Change to your actual song file
 
   playButton.addEventListener("click", function () {
       if (audio.paused) {
@@ -54,7 +54,7 @@ daisy1.addEventListener('click', () => {
 
 // Play Button Click Event (Stage 2)
 playButton.addEventListener('click', () => {
-  playSong('FindingYou.mp3');
+  playSong();
 });
 
 // Play song
