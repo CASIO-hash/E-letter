@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Update greeting text
 document.getElementById("greetingText").innerHTML = `
-    <strong>Hi, ${userName}.</strong> Sooo, you DO revisit!?😊 Noice😁. <br>
-    I want to visit so many places with you. My Emerald greeeen!<br>
+    <strong>Hi, ${userName}.</strong> I totally get your anger <br>
+   Promises are meant to be kept not forget.<br>
 
-    <strong>I see you and my heart skips a beat 💓💗</strong><br>
-    Hmm... Last song was not in good quality, Here's one which I listen to when the heavens let water loose.😉<br>
+    <strong>But communication is important yk.</strong><br>
+    If we don't communicate.. i don't wanna explore that possibility. I can be very clingy at times. In all honesty; i extremely fear losing you. Mat jao na aise bina kuch bole, yeh achhi aadat nahi hai. <br>
 `;
 
   // Play/Pause toggle functionality
