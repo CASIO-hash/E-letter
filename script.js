@@ -25,7 +25,7 @@ document.getElementById("greetingText").innerHTML = `
 
   // Play/Pause toggle functionality
   const playButton = document.getElementById("playButton");
-  const audio = new Audio("Barish.mp3"); // Change to your actual song file
+  const audio = new Audio("FindingYou.mp3"); // Change to your actual song file
 
   playButton.addEventListener("click", function () {
       if (audio.paused) {
