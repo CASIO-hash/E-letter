@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Update greeting text
 document.getElementById("greetingText").innerHTML = `
-    <strong>Hi, ${userName}.</strong> I enjoy every minute of this. <br>
-   🩵🩵🩵🩵🩵.<br>
+    <strong>Hi, ${userName}.</strong> I enjoy every minute of this or maybe i'm trying to. <br>
+   🩵🩵🩵🩵🩵<br>
 
     <strong>I rush alot ik.</strong><br>But, I shouldnt be sorry for loving. <br>
 `;
