@@ -16,16 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Update greeting text
 document.getElementById("greetingText").innerHTML = `
-    <strong>Hi, ${userName}.</strong> I totally get your anger <br>
-   Promises are meant to be kept not forget.<br>
+    <strong>Hi, ${userName}.</strong> I enjoy every minute of this. <br>
+   🩵🩵🩵🩵🩵.<br>
 
-    <strong>I rushed it ik.</strong><br>
-I could'nt adhere to my own words,i knew this would happed. I even addressed it in that last letter... I'm such a fool. <br>
+    <strong>I rush alot ik.</strong><br>But, I shouldnt be sorry for loving. <br>
 `;
 
   // Play/Pause toggle functionality
   const playButton = document.getElementById("playButton");
-  const audio = new Audio('FindingYou.mp3'); // Change to your actual song file
+  const audio = new Audio('The Pool.mp3'); // Change to your actual song file
 
   playButton.addEventListener("click", function () {
       if (audio.paused) {
@@ -59,6 +58,6 @@ playButton.addEventListener('click', () => {
 
 // Play song
 function playSong() {
-  const audio = new Audio('FindingYou.mp3'); // Replace with your song file
+  const audio = new Audio('The Pool.mp3'); // Replace with your song file
   audio.play();
 }
