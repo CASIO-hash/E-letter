@@ -16,15 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Update greeting text
 document.getElementById("greetingText").innerHTML = `
-    <strong>Hi, ${userName}.</strong> I enjoy every minute of this or maybe i'm trying to. <br>
+    <strong>Hi, ${userName}.</strong> I enjoy every minute of this or maybe i'm trying to cuz silence borderline feels like abandonment yk. <br>
    🩵🩵🩵🩵🩵<br>
 
-    <strong>I rush alot ik.</strong><br>But, I shouldnt be sorry for loving. <br>
+    <strong>I absolutely loove gems! Maybe the reason why i find you soo attractive😉☺️</strong><br> Sapphiire!!. <br>
 `;
 
   // Play/Pause toggle functionality
   const playButton = document.getElementById("playButton");
-  const audio = new Audio('The Pool.mp3'); // Change to your actual song file
+  const audio = new Audio('Ed Sheeran - Sapphire (Official Music Video).mp3'); // Change to your actual song file
 
   playButton.addEventListener("click", function () {
       if (audio.paused) {
@@ -58,6 +58,6 @@ playButton.addEventListener('click', () => {
 
 // Play song
 function playSong() {
-  const audio = new Audio('The Pool.mp3'); // Replace with your song file
+  const audio = new Audio('Ed Sheeran - Sapphire (Official Music Video).mp3'); // Replace with your song file
   audio.play();
 }
