@@ -19,7 +19,7 @@ document.getElementById("greetingText").innerHTML = `
     <strong>Hi, ${userName}.</strong> I enjoy every minute of this or maybe i'm trying to cuz silence borderline feels like abandonment yk. <br>
    🩵🩵🩵🩵🩵<br>
 
-    <strong>I absolutely loove gems! Maybe the reason why i find you soo attractive😉☺️</strong><br> Sapphiire!!. <br>
+    <strong>I absolutely loove gems!, Explains why i find you soo attractive😉☺️</strong><br> Sapphiire!!. <br>
 `;
 
   // Play/Pause toggle functionality
